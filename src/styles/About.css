@@ -1,0 +1,30 @@
+.about-me {
+    padding: 40px;
+    background-color: rgba(5, 135, 250, 0.1);
+    color: #000000;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Плавный переход для фона и тени */
+}
+
+.about-me:hover {
+    background-color: rgba(115, 115, 115, 0.3); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+}
+
+.about-me h2 {
+    font-size: 28px;
+    color: #ffdcdc;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: white;
+    text-align: justify;
+}
