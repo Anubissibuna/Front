@@ -6,6 +6,11 @@
     margin: 80px auto;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s; 
+}
+
+.projects-section:hover {
+    background-color: rgba(4, 4, 4, 0.2); 
 }
 
 .projects-section h2 {
@@ -33,12 +38,13 @@
     border-radius: 10px;
     padding: 20px;
     margin: 15px 0;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
 }
 
 .project-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(24, 24, 24, 0.25); 
 }
 
 .project-title {
