@@ -2,8 +2,8 @@ import {Route, Routes, NavLink} from "react-router-dom"
 import Home from "../pages/Home.tsx";
 import About from "../pages/About.tsx";
 import Skills from "../pages/Skills.tsx";
-import Projects from "../pages/Projects.tsx";
-import Contact from "../pages/Contact.tsx";
+import {Projects} from "../pages/Projects.tsx";
+import {Contact} from "../pages/Contact.tsx";
 import '../styles/Header.css'
 
 export default function Header() {
